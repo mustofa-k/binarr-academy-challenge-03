@@ -2,10 +2,10 @@
 import PageItem from "./PageItem";
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
-
+import { TodoContext } from "../context/Context";
 import { useState } from "react";
 import { useContext } from "react";
-import { TodoContext } from "../context/todoContext";
+
 
 const PageItems = () => {
   const { todos, queryResults, deleteTodoHandler, checkedTodoHandler,} = useContext(TodoContext);

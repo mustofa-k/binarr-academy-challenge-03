@@ -6,11 +6,6 @@
       "complete": true
     },
     {
-      "id": 2,
-      "task": "Memberi makan kucing",
-      "complete": true
-    },
-    {
       "id": 3,
       "task": "Olahraga 10 menit",
       "complete": false
@@ -44,6 +39,16 @@
       "id": 9,
       "task": "Les bahasa jepang",
       "complete": true
+    },
+    {
+      "id": "41f333ec-e7fe-4dca-a912-39cb7a13c153",
+      "task": "belajar design",
+      "complete": false
+    },
+    {
+      "id": "e7625b67-33ef-4e02-ab49-df3e56dc5129",
+      "task": "belajar javascript",
+      "complete": false
     }
   ]
 }

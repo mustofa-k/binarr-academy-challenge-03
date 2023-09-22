@@ -1,7 +1,7 @@
 
 import PropTypes from "prop-types";
 import { useState, useContext } from "react";
-import { TodoContext } from "../context/todoContext";
+import { TodoContext } from "../context/Context";
 
 const PageSearch = () => {
   const { searchHandler } = useContext(TodoContext);

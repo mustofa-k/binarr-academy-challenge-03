@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import HomePage from "./pages/HomePage";
-import NewTask from "./pages/NewTask";
-import EditTask from "./pages/EditTask";
+import HomePage from "./pages/HomePage.jsx";
+import AddPage from "./pages/AddPage.jsx";
+import EditPage from "./pages/EditPage.jsx";
 
 const routes = createBrowserRouter([
 	{
@@ -11,11 +11,11 @@ const routes = createBrowserRouter([
 	},
 	{
 		path: "/new",
-		element: <NewTask />,
+		element: <AddPage />,
 	},
 	{
 		path: "/:id/edit",
-		element: <EditTask />,
+		element: <EditPage />,
 	},
 ]);
 const App = () => {
